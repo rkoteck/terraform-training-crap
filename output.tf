@@ -1,4 +1,4 @@
-output "crap" {
-        value = "${training.crap.id}"
+output "name" {
+        value = "${random_pet.animal.id}"
         description = "Does some shit"
 }
